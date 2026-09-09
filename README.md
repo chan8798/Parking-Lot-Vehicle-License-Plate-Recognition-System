@@ -30,8 +30,6 @@ When `find_plate_debug.py` is executed, a `result` image file containing the det
 
 ## `training` Folder
 
-The `training` folder contains the performance results of the trained YOLO26s model using the **Validation** and **Test** datasets downloaded from Roboflow.
-
 ### What is `train`?
 
 The `train` folder contains the performance results of the model on **309 Validation images** downloaded from the Roboflow dataset.
