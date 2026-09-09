@@ -38,7 +38,7 @@ When `find_plate_debug.py` is executed, a `result` image file containing the det
 
 ## `training` Folder
 
-### What is `train`?
+### What is `train` folder?
 
 The `train` folder contains the performance results of the model on **309 Validation images** downloaded from the Roboflow dataset.
 
@@ -64,7 +64,7 @@ The folder includes:
     * `metrics/mAP50(B)`
     * `metrics/mAP50-95(B)`
 
-### What is `val`?
+### What is `val` folder?
 
 The `val` folder contains the performance results of the model on **152 Test images** downloaded from the Roboflow dataset.
 
