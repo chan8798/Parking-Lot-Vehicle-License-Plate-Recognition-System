@@ -34,6 +34,4 @@ The `training` folder contains the training results of the YOLO26s model.
 
 The `train` folder contains the performance results obtained from the **Validation** and **Test** datasets provided by Roboflow.
 
-These results can be used to evaluate the model's license plate detection performance on unseen data.
-
 
