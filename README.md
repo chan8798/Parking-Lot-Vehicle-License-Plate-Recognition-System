@@ -2,6 +2,14 @@
 
 ## `dataset` Folder
 
+The `dataset` folder contains a YOLO-format dataset downloaded from Roboflow.
+
+- **train/** : 1,050 training images
+- **valid/** : 309 validation images
+- **test/** : 152 test images
+
+> All data were obtained from Roboflow.
+
 ## `cvp` Folder
 
 ### What is `best.pt`?
