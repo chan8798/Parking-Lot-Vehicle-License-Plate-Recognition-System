@@ -76,5 +76,12 @@ The folder includes:
 
 * `confusion_matrix.png`: A confusion matrix showing the model's performance on the 152 Test images.
 
+## `test_fail` Folder
+
+The `test_fail` folder contains examples of failed license plate recognition, assuming that the front of a vehicle is captured by a parking lot entrance or exit barrier camera.
+
+Unlike the images in the `test_success` folder, the license plate numbers in these examples were **not successfully recognized**.
+
+
 
 
