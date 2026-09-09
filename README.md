@@ -2,13 +2,11 @@
 
 ## `dataset` Folder
 
-The `dataset` folder contains a YOLO-format dataset downloaded from Roboflow.
+- **what is train** : 1,050 training images
+- **what is valid** : 309 validation images
+- **what is test** : 152 test images
 
-- **train/** : 1,050 training images
-- **valid/** : 309 validation images
-- **test/** : 152 test images
-
-> All data were obtained from Roboflow.
+> All data(train data, valid data, test data) were obtained from Roboflow.
 
 ## `cvp` Folder
 
