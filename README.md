@@ -28,7 +28,7 @@ When `find_plate_debug.py` is executed, a `result` image file containing the det
 
 **Important:** Please run `find_plate_debug.py` first, followed by `find_plate_number_debug.py`.
 
-## `training` Folder?
+## `training` Folder
 
 The `training` folder contains the performance results of the trained YOLO26s model using the **Validation** and **Test** datasets downloaded from Roboflow.
 
