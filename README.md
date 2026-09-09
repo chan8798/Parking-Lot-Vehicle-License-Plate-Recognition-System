@@ -28,11 +28,43 @@ When `find_plate_debug.py` is executed, a `result` image file containing the det
 
 **Important:** Please run `find_plate_debug.py` first, followed by `find_plate_number_debug.py`.
 
-## `training` Folder
+## What is `training`?
+
+The `training` folder contains the performance results of the trained YOLO26s model using the **Validation** and **Test** datasets downloaded from Roboflow.
 
 ### What is `train`?
 
-The `train` folder contains the model performance results on the **Validation** and **Test** datasets from Roboflow.
+The `train` folder contains the performance results of the model on **309 Validation images** downloaded from the Roboflow dataset.
+
+The folder includes:
+
+* `confusion_matrix.png`: A confusion matrix showing the model's performance on the 309 Validation images.
+* `result.png`: A graph showing the following training and validation results:
+
+  * **Training Loss**
+
+    * `train/box_loss`
+    * `train/cls_loss`
+    * `train/dfl_loss`
+  * **Validation Loss**
+
+    * `val/box_loss`
+    * `val/cls_loss`
+    * `val/dfl_loss`
+  * **Validation Metrics**
+
+    * `metrics/precision`
+    * `metrics/recall`
+    * `metrics/mAP50(B)`
+    * `metrics/mAP50-95(B)`
+
+### What is `val`?
+
+The `val` folder contains the performance results of the model on **152 Test images** downloaded from the Roboflow dataset.
+
+The folder includes:
+
+* `confusion_matrix.png`: A confusion matrix showing the model's performance on the 152 Test images.
 
 
 
