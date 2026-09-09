@@ -2,9 +2,9 @@
 
 ## `dataset` Folder
 
-- **what is train** : 1,050 training images
-- **what is valid** : 309 validation images
-- **what is test** : 152 test images
+- **what is train folder?** : 1,050 training images
+- **what is valid folder?** : 309 validation images
+- **what is test folder?** : 152 test images
 
 > All data(train data, valid data, test data) were obtained from Roboflow.
 
