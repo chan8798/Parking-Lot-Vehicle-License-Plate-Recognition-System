@@ -60,6 +60,18 @@ The folder includes:
 
 The `val` folder contains the performance results of the model on **152 Test images** downloaded from the Roboflow dataset.
 
+## `test_success` Folder
+
+The `test_success` folder contains successful license plate recognition results, assuming that the front of a vehicle is captured by a parking lot entrance or exit barrier camera.
+
+The recognition process is as follows:
+
+1. Run `find_plate_debug.py` in the `cvp` folder to detect and extract the license plate region from the captured vehicle image.
+2. The program generates a `result` image containing the detected license plate region.
+3. Run `find_plate_number_debug.py` using the generated `result` image to recognize the license plate number.
+4. The images and results in the `test_success` folder are examples where the license plate number was successfully recognized.
+
+
 The folder includes:
 
 * `confusion_matrix.png`: A confusion matrix showing the model's performance on the 152 Test images.
